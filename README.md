@@ -3,9 +3,12 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # SignalP2P
 SignalP2P is a simple WiFi P2P chat application built based on the [libsignal](https://github.com/signalapp/libsignal), the Signal Messenger app open-source secure protocol.
+
 The application structure is P2P-based, which means that you must be connected to the same network as the other participants.
 Everything is stored encrypted on user devices, and we don't have any server connection, so we don't need an internet connection. However, if you want some features like sending location or gifs, you must have internet access.
+
 **Status:  🚧  In progress**
+
 SignalP2P is still in under development, and some features are not yet implemented.
 Today, unfortunately, I am very busy and this is the university project that I have to deliver, so I plan to refactor the project when I have more time.
 # Features
