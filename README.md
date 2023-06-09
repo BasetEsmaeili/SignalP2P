@@ -30,7 +30,6 @@ Today, unfortunately, I am very busy and this is the university project that I h
 - [Data Store](https://developer.android.com/topic/libraries/architecture/datastore)
 - [LeakCanary](https://github.com/square/leakcanary)
 - [Coil](https://github.com/coil-kt/coil)
-- [Detekt](https://github.com/detekt/detekt)
 - [Ktlint](https://pinterest.github.io/ktlint/0.49.1)
 # Development Environment
 **SignalP2P**  uses the Gradle build system and can be imported directly into Android Studio (make sure you are using the latest stable version available  [here](https://developer.android.com/studio)).
