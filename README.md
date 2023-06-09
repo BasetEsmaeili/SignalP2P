@@ -27,7 +27,6 @@ Today, unfortunately, I am very busy and this is the university project that I h
 - [Dagger Hilt](https://dagger.dev/hilt)
 - [Protobuf](https://protobuf.dev)
 - [Realm Database](https://realm.io/)
-- [Kotlin Serialization](https://github.com/Kotlin/kotlinx.serialization)
 - [Data Store](https://developer.android.com/topic/libraries/architecture/datastore)
 - [LeakCanary](https://github.com/square/leakcanary)
 - [Coil](https://github.com/coil-kt/coil)
