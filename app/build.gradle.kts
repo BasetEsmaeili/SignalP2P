@@ -1,3 +1,5 @@
+import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
+
 @Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
     alias(libs.plugins.android.application)
@@ -5,6 +7,7 @@ plugins {
     alias(libs.plugins.kapt)
     alias(libs.plugins.hilt) apply false
     alias(libs.plugins.secrets)
+    alias(libs.plugins.kotlin.ktlint)
 }
 
 android {
@@ -67,6 +70,28 @@ android {
 
     kapt {
         correctErrorTypes = true
+    }
+
+    configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> {
+        debug.set(true)
+        verbose.set(true)
+        android.set(true)
+        outputToConsole.set(true)
+        outputColorName.set("RED")
+        ignoreFailures.set(true)
+        enableExperimentalRules.set(false)
+        baseline.set(file("signalp2p-ktlint-baseline.xml"))
+        reporters {
+            reporter(ReporterType.PLAIN)
+            reporter(ReporterType.CHECKSTYLE)
+        }
+        kotlinScriptAdditionalPaths {
+            include(fileTree("scripts/"))
+        }
+        filter {
+            exclude("**/generated/**")
+            include("**/kotlin/**")
+        }
     }
 }
 
