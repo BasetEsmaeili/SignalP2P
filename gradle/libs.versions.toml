@@ -13,6 +13,7 @@ androidx-palette = "1.0.0"
 androidx-window = "1.1.0-rc01"
 androidxHiltNavigationCompose = "1.0.0"
 coil = "2.2.2"
+realm = "1.8.0"
 # @keep
 compileSdk = "33"
 compose-compiler = "1.4.0"
@@ -84,6 +85,7 @@ kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.re
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 java-inject = { module = "javax.inject:javax.inject", version.ref = "java-inject" }
 protobuf-lite = { module = "com.google.protobuf:protobuf-lite", version.ref = "protobuf-lite" }
+database-realm = { module = "io.realm.kotlin:library-base", version.ref = "realm" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
@@ -95,5 +97,6 @@ kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref =
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 secrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secrets" }
 protobuf = { id = "com.google.protobuf", version.ref = "protobuf" }
+database-realm = { id = "io.realm.kotlin", version.ref = "realm" }
 [bundles]
 

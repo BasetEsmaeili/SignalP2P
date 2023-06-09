@@ -26,7 +26,7 @@ Today, unfortunately, I am very busy and this is the university project that I h
 - [Material Design 3](https://m3.material.io)
 - [Dagger Hilt](https://dagger.dev/hilt)
 - [Protobuf](https://protobuf.dev)
-- [Objectbox Database](https://objectbox.io)
+- [Realm Database](https://realm.io/)
 - [Kotlin Serialization](https://github.com/Kotlin/kotlinx.serialization)
 - [Data Store](https://developer.android.com/topic/libraries/architecture/datastore)
 - [LeakCanary](https://github.com/square/leakcanary)

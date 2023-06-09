@@ -117,4 +117,5 @@ dependencies {
     implementation(libs.googlemaps.location)
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
+    implementation(libs.database.realm)
 }

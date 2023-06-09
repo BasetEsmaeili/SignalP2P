@@ -3,5 +3,6 @@
 plugins {
     alias(libs.plugins.gradle.versions)
     alias(libs.plugins.hilt) apply false
+    alias(libs.plugins.database.realm) apply false
 }
 true // Needed to make the Suppress annotation work for the plugins block
