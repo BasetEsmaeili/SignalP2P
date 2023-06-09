@@ -119,4 +119,5 @@ dependencies {
     kapt(libs.hilt.compiler)
     implementation(libs.database.realm)
     implementation(libs.protobuf.datastore)
+    debugImplementation(libs.leakcanary)
 }

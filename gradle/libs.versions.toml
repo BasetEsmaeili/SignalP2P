@@ -38,6 +38,7 @@ protobuf = "0.9.3"
 protobuf-lite = "3.0.1"
 protobuf-datastore = "1.0.0"
 protoc = "3.23.2"
+leakcanary = "2.11"
 [libraries]
 accompanist-adaptive = { module = "com.google.accompanist:accompanist-adaptive", version.ref = "accompanist" }
 accompanist-flowlayout = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanist" }
@@ -88,6 +89,7 @@ java-inject = { module = "javax.inject:javax.inject", version.ref = "java-inject
 protobuf-lite = { module = "com.google.protobuf:protobuf-lite", version.ref = "protobuf-lite" }
 protobuf-datastore = { module = "androidx.datastore:datastore", version.ref = "protobuf-datastore" }
 database-realm = { module = "io.realm.kotlin:library-base", version.ref = "realm" }
+leakcanary = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanary" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
