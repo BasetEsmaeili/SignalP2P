@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "SignalP2P"
 include(":app")
-include(":domain")
+include(":protos")

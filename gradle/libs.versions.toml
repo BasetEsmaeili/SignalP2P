@@ -33,6 +33,9 @@ minSdk = "26"
 secrets = "2.0.1"
 # @keep
 targetSdk = "33"
+protobuf = "0.9.3"
+protobuf-lite = "3.0.1"
+protoc = "3.23.2"
 [libraries]
 accompanist-adaptive = { module = "com.google.accompanist:accompanist-adaptive", version.ref = "accompanist" }
 accompanist-flowlayout = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanist" }
@@ -80,6 +83,7 @@ hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.re
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 java-inject = { module = "javax.inject:javax.inject", version.ref = "java-inject" }
+protobuf-lite = { module = "com.google.protobuf:protobuf-lite", version.ref = "protobuf-lite" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
@@ -90,5 +94,6 @@ kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 secrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secrets" }
+protobuf = { id = "com.google.protobuf", version.ref = "protobuf" }
 [bundles]
 
