@@ -118,4 +118,5 @@ dependencies {
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
     implementation(libs.database.realm)
+    implementation(libs.protobuf.datastore)
 }

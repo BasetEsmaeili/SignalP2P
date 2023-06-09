@@ -36,6 +36,7 @@ secrets = "2.0.1"
 targetSdk = "33"
 protobuf = "0.9.3"
 protobuf-lite = "3.0.1"
+protobuf-datastore = "1.0.0"
 protoc = "3.23.2"
 [libraries]
 accompanist-adaptive = { module = "com.google.accompanist:accompanist-adaptive", version.ref = "accompanist" }
@@ -85,6 +86,7 @@ kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.re
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 java-inject = { module = "javax.inject:javax.inject", version.ref = "java-inject" }
 protobuf-lite = { module = "com.google.protobuf:protobuf-lite", version.ref = "protobuf-lite" }
+protobuf-datastore = { module = "androidx.datastore:datastore", version.ref = "protobuf-datastore" }
 database-realm = { module = "io.realm.kotlin:library-base", version.ref = "realm" }
 
 [plugins]
